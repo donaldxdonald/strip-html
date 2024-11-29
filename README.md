@@ -6,7 +6,7 @@ A simple tool to remove HTML tags from a string / HTML file. Use [rehype-retext]
 
 ## Usage
 
-require Node.js >=
+require Node.js >= 20
 
 
 ### CLI

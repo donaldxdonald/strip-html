@@ -6,6 +6,9 @@
   "bin": {
     "strip-html": "./bin/index.js"
   },
+  "engines": {
+    "node": ">= 20"
+  },
   "type": "module",
   "scripts": {
     "build": "tsup"
