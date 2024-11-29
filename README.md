@@ -1,14 +1,30 @@
 
-<h1 align="center">🚀 My TS Lib Starter</h1>
+# strip-html
+
+A simple tool to remove HTML tags from a string / HTML file. Use [rehype-retext](https://github.com/rehypejs/rehype-retext) under the hood. 
+
 
 ## Usage
 
-```shell
-$ pnpm i
+require Node.js >=
+
+
+### CLI
+
+
+```bash
+# basic
+strip-html <file>
+
+# specify output
+strip-html <file> -o <output-file>
 ```
 
-## Features
+### Node.js
+```ts
+import { stripHtml } from '@dndxdnd/strip-html'
 
-- Packgae manager [pnpm](https://pnpm.io/)
-- Bundle with [tsup](https://github.com/egoist/tsup)
-- ESLint config [@dndxdnd/eslint-config](https://github.com/donaldxdonald/eslint-configs)
+const striped = await stripHtml('<p>Hello, world!</p>')
+console.log(striped) // 'Hello, world!'
+
+```
