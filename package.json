@@ -11,7 +11,8 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "release": "pnpm run build && pnpm run publish"
   },
   "author": "donaldxdonald",
   "license": "MIT",
