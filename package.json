@@ -1,6 +1,6 @@
 {
   "name": "@dndxdnd/strip-html",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple tool to remove HTML tags from a string / HTML file. ",
   "main": "./dist/index.js",
   "bin": {
