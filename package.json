@@ -12,6 +12,7 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
+    "publish": "changeset publish",
     "release": "pnpm run build && pnpm run publish"
   },
   "author": "donaldxdonald",
